@@ -1,0 +1,12 @@
+Template 1, ODP.NET, Unmanaged driver: <add name="CONTEXT_TITLE" providerName="Oracle.DataAccess.Client" connectionString="User Id=USER_NAME;Password=USER_PASSWORD;Data Source=SOURCE_NAME" />
+Template 1, ODP.NET Provider registration, Unmanaged driver: <provider invariantName="Oracle.DataAccess.Client" type="Oracle.DataAccess.EntityFramework.EFOracleProviderServices, Oracle.DataAccess.EntityFramework, Version=VERSION, Culture=CULTURE, PublicKeyToken=TOKEN" />
+
+Example 1, ODP.NET, Unmanaged driver: <add name="OracleDBContext" providerName="Oracle.DataAccess.Client" connectionString="User Id=admin;Password=password;Data Source=eftest" />
+Example 1, ODP.NET Provider registration, Unmanaged driver: <provider invariantName="Oracle.DataAccess.Client" type="Oracle.DataAccess.EntityFramework.EFOracleProviderServices, Oracle.DataAccess.EntityFramework, Version=6.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342" />
+
+
+Template 2, ODP.NET, Managed driver: <add name="CONTEXT_TITLE" providerName="Oracle.ManagedDataAccess.Client" connectionString="User Id=USER_NAME;Password=USER_PASSWORD;Data Source=SOURCE_NAME" />
+Template 2, ODP.NET Provider registration, Managed driver: <provider invariantName="Oracle.ManagedDataAccess.Client" type="Oracle.ManagedDataAccess.EntityFramework.EFOracleProviderServices, Oracle.ManagedDataAccess.EntityFramework, Version=VERSION, Culture=CULTURE, PublicKeyToken=TOKEN" />
+
+Example 1, ODP.NET, Managed driver: <add name="OracleDBContext" providerName="Oracle.ManagedDataAccess.Client" connectionString="User Id=admin;Password=password;Data Source=eftest" />
+Template 2, ODP.NET Provider registration, Managed driver: <provider invariantName="Oracle.ManagedDataAccess.Client" type="Oracle.ManagedDataAccess.EntityFramework.EFOracleProviderServices, Oracle.ManagedDataAccess.EntityFramework, Version=6.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342" />

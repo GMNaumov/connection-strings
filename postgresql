@@ -1,0 +1,2 @@
+Template 1, Npgsql: "Server=HOSTNAME;Port=PORT;Database=DATABASE_NAME;User ID=USER_NAME;Password=USER_PASSWORD;"
+Example 1, Npgsql: "Host=localhost;Port=5432;Database=postgres;User ID=admin;Password=password;"
