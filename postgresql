@@ -2,4 +2,4 @@ Template 1, Npgsql: "Server=HOSTNAME;Port=PORT;Database=DATABASE_NAME;User ID=US
 Example 1, Npgsql: "Host=localhost;Port=5432;Database=postgres;User ID=admin;Password=password;"
 
 Template 2, JDBC: "jdbc:postgresql://HOSTNAME:PORT/DATABASE_NAME"
-Example 2, Npgsql: "jdbc:postgresql://localhost:5432/sample"
+Example 2, JDBC: "jdbc:postgresql://localhost:5432/sample"
